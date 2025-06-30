@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="System"?>
+<table>
+    <database></database>
+    <name>books</name>
+    <ddl>CREATE TABLE [books] (
+    [book_id] varchar(255) not null ,
+    [book_title] varchar(255) not null ,
+    [book_author] varchar(255) not null ,
+    [book_genre] varchar(255) not null ,
+    [book_publication_year] varchar(255) not null 
+    );</ddl>
+    <columns>
+        <column>
+            <name>book_id</name>
+            <type>varchar</type>
+            <constraints>
+                <constraint>
+                    <type>NOT NULL</type>
+                    <definition>not null </definition>
+                </constraint>
+            </constraints>
+        </column>
+        <column>
+            <name>book_title</name>
+            <type>varchar</type>
+            <constraints>
+                <constraint>
+                    <type>NOT NULL</type>
+                    <definition>not null </definition>
+                </constraint>
+            </constraints>
+        </column>
+        <column>
+            <name>book_author</name>
+            <type>varchar</type>
+            <constraints>
+                <constraint>
+                    <type>NOT NULL</type>
+                    <definition>not null </definition>
+                </constraint>
+            </constraints>
+        </column>
+        <column>
+            <name>book_genre</name>
+            <type>varchar</type>
+            <constraints>
+                <constraint>
+                    <type>NOT NULL</type>
+                    <definition>not null </definition>
+                </constraint>
+            </constraints>
+        </column>
+        <column>
+            <name>book_publication_year</name>
+            <type>varchar</type>
+            <constraints>
+                <constraint>
+                    <type>NOT NULL</type>
+                    <definition>not null 
+                    </definition>
+                </constraint>
+            </constraints>
+        </column>
+    </columns>
+    <rows>
+        <row>
+            <value column="0">1;2;3;4</value>
+            <value column="1">Gato, Pato and the very small mouse;Nausea;How We Die;Bullsh*t Jobs</value>
+            <value column="2">Kevin Brown;Jean Paul Sartre;Sherwin B Nuland;David Graeber</value>
+            <value column="3">Children;Literature;Non Fiction;Non Fiction</value>
+            <value column="4">2024;1938;1994;2018</value>
+        </row>
+        <row>
+            <value column="0">1;2;3;4;5;6</value>
+            <value column="1">Gato, Pato and the very small mouse;Nausea;How We Die;Bullsh*t Jobs;Nexts;Keep Talking</value>
+            <value column="2">Kevin Brown;Jean Paul Sartre;Sherwin B Nuland;David Graeber;Eric Liu;Friederike Kippel</value>
+            <value column="3">Children;Literature;Non Fiction;Non Fiction;Fiction;Non Fiction</value>
+            <value column="4">2024;1938;1994;2018;1994;2207</value>
+        </row>
+    </rows>
+</table>
