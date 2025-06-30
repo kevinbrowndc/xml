@@ -1,0 +1,43 @@
+<library>
+
+	<books>
+		<book id="1">
+			<title>Gato, Pato and the very small mouse</title>
+			<author>Kevin Brown</author>
+			<genre>Children</genre>
+			<publication_year>2024</publication_year>
+		</book>
+		<book id="2">
+			<title>Nausea</title>
+			<author>Jean Paul Sartre</author>
+			<genre>Literature</genre>
+			<publication_year>1938</publication_year>
+		</book>
+		<book id="3">
+			<title>How We Die</title>
+			<author>Sherwin B Nuland</author>
+			<genre>Non Fiction</genre>
+			<publication_year>1994</publication_year>
+		</book>
+		<book id="4">
+			<title>Bullsh*t Jobs</title>
+			<author>David Graeber</author>
+			<genre>Non Fiction</genre>
+			<publication_year>2018</publication_year>
+		</book>
+		<book id="5">
+			<title>Nexts</title>
+			<author>Eric Liu</author>
+			<genre>Fiction</genre>
+			<publication_year>1994</publication_year>
+		</book>
+		<book id="6">
+			<title>Keep Talking</title>
+			<author>Friederike Kippel</author>
+			<genre>Non Fiction</genre>
+			<publication_year>2207</publication_year>
+		</book>
+
+	</books>
+	
+</library>
